@@ -38,9 +38,17 @@ public class Magpie2
 		else if (statement.indexOf("mother") >= 0
 				|| statement.indexOf("father") >= 0
 				|| statement.indexOf("sister") >= 0
-				|| statement.indexOf("brother") >= 0)
-		{
-			response = "Tell me more about your family.";
+				|| statement.indexOf("brother") >= 0) {
+            response = "Tell me more about your family.";
+        }
+        else if (statement.indexOf("candy") >= 0
+                || statement.indexOf("food") >= 0
+                || statement.indexOf("color") >= 0)
+
+        {
+             response = "That's my favorite too!! Twinsies!";
+
+
 		}
 		else
 		{
